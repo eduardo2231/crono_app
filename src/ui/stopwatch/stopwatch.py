@@ -3,8 +3,10 @@ from PIL import Image
 from pathlib import Path
 from src.logic.buttons import Button
 from src.ui.stopwatch.frames.header import Header
-from src.ui.stopwatch.frames.sidebar import Sidebar
 from src.ui.stopwatch.frames.content import Content
+from src.ui.stopwatch.frames.sidebar import Sidebar
+from src.ui.timer.frames.content import Content as TimerContent
+from src.ui.analysis.frames.content import Content as AnalysisContent
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 icon_path = BASE_DIR / "assets" / "favicon.ico"
@@ -19,36 +21,40 @@ class App(ctk.CTk):
 
         self.geometry('1200x800')
         self.resizable(False, False)
+        self.title("Cronometro")
 
-        self.grid_columnconfigure(0, weight=0)
+        # -------------- Header --------------
+        self.header = Header(master=self)
+        self.header.grid(row=0, column=0, padx=20, pady=20, sticky="nsew")
 
-        button = Button(self)
+        # -------------- Content --------------
+        self.main_area = ctk.CTkFrame(master=self)
+        self.main_area.grid(row=1, column=0, padx=20, pady=20, sticky="nsew")
+        self.main_area.grid_rowconfigure(0, weight=1)
+        self.main_area.grid_columnconfigure(0, weight=1)
 
-        # Display do tempo
-        self.label_tempo = ctk.CTkLabel(
-            self,
-            text="00:00:00.0",
-            font=ctk.CTkFont(family="Terminal",
-                             size=48,
-                             weight="bold")
-        )
-        self.label_tempo.grid(row=1, column=1)
+        self.screens = {}
 
-        img_menu = ctk.CTkImage(
-            light_image=Image.open(BASE_DIR / "assets" / "menu" / "menu.png" ),
-            dark_image=Image.open(BASE_DIR / "assets" / "menu" / "menu.png" ),
-            size=(24, 24)
-        )
+        self.screens["stopwatch"] = Content(master=self.main_area)
+        self.screens["timer"] = TimerContent(master=self.main_area)
+        self.screens["analysis"] = AnalysisContent(master=self.main_area)
 
-        self.options = ctk.CTkButton(self, image=img_menu,
-                                     text='',
-                                     fg_color="transparent",
-                                     hover_color="#3a3a3a",
-                                     width=20,
-                                     height=20,
-                                     )
+        for screen in self.screens.values():
+            screen.grid(row=0, column=0, sticky="nsew")
+        self.show_screen("stopwatch")
 
-        self.options.grid(row=0, column=0, padx=10, pady=10)
+        # -------------- Sidebar --------------
+        self.sidebar = Sidebar(master=self)
+
+    def toggle_sidebar(self):
+        if self.sidebar.winfo_ismapped():
+            self.sidebar.place_forget()
+        else:
+            self.sidebar.place(x=20, y=20)
+            self.sidebar.lift()
+
+    def show_screen(self, name: str):
+        self.screens[name].tkraise()
 
 
 if __name__ == '__main__':

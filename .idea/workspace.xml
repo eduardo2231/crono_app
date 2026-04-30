@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9452d3c1-bdbf-4a03-946a-409ed7b1d54f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/menu/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/stopwatch_logic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/timer_logic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/analysis/frames/content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/timer/frames/content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cronometro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/buttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stopwatch/frames/content.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/stopwatch/frames/content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stopwatch/frames/header.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/stopwatch/frames/header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stopwatch/frames/sidebar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/stopwatch/frames/sidebar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stopwatch/stopwatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/stopwatch/stopwatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/analysis.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eduardo2231&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eduardo2231/crono_app.git&quot;,
+    &quot;accountId&quot;: &quot;9ec93fb0-2ee2-40c2-b357-79bc6ccb0ba1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3CV612rlMIiWUwDX3pZgNNzYrzm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemplo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemplo2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.header.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sidebar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stopwatch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste (1).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ki0lo/OneDrive/Documentos/python/cronometro/src/ui/analysis/frame&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\src\ui\analysis\frame" />
+      <recent name="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\src\ui\analysis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\src\assets\menu" />
+      <recent name="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\src\ui\timer" />
+      <recent name="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\src\ui\stopwatch" />
+      <recent name="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.stopwatch">
+    <configuration name="exemplo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="cronometro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\ki0lo\OneDrive\Documentos\python\cronometro\exemplo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stopwatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cronometro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ui/stopwatch/stopwatch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stopwatch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9452d3c1-bdbf-4a03-946a-409ed7b1d54f" name="Changes" comment="" />
+      <created>1776458171792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776458171792</updated>
+    </task>
+    <servers />
+  </component>
+</project>
